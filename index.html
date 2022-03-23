@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Animation</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="action.js"></script>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <div class="main">
+        <span class="static">I am a </span><span class="dynamic"></span>
+    </div>
+</body>
+<script>
+    var typed = new Typed('.dynamic', {
+  strings: ["Youtuber", "Freelancer","Web Developer","Graphics Expert"],
+  typeSpeed: 30,
+  loop:true
+});
+</script>
+</html>
